@@ -1,2 +1,2 @@
 # alpacalyptic-algos
-Trading algorithm development using Alpaca's data, trading, and broker API's
+Trading algorithm and strategy development using Alpaca's data, trading, and broker APIs.
