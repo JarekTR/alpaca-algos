@@ -26,4 +26,3 @@ test_sell = create_order("AAPL", 5, "sell", "market", "gtc")
 print(test_account, "\n")
 print(test_buy, "\n")
 print(test_sell)
-
