@@ -20,7 +20,10 @@ def create_order(symbol, qty, side, type, time_in_force):
 
 
 test_account = get_account()
-test_order = create_order("AAPL", 5, "buy", "market", "gtc")
+test_buy = create_order("AAPL", 5, "buy", "market", "gtc")
+test_sell = create_order("AAPL", 5, "sell", "market", "gtc")
 
 print(test_account, "\n")
-print(test_order, "\n")
+print(test_buy, "\n")
+print(test_sell)
+
