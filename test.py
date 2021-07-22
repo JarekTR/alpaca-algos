@@ -8,12 +8,12 @@ def get_account():
     return json.loads(r.content)
 
 
-def create_order(symbol, qty, side, type, time_in_force):
+def create_order(symbol, qty, side, order_type, time_in_force):
     data = {
         "symbol": symbol,
         "qty": qty,
         "side": side,
-        "type": type,
+        "type": order_type,
         "time_in_force": time_in_force,
     }
     r = requests.post(ORDER_URL, json=data, headers=HEADERS)
