@@ -1,4 +1,4 @@
-import alpaca_trade_api
+import alpaca_trade_api as alpaca
 from config import *
 
 
@@ -55,8 +55,8 @@ def sell_order(trade_api):
     return order
 
 
-trade_api = alpaca_trade_api.REST(API_KEY, SECRET_KEY, APCA_API_BASE_URL)
-data_api = alpaca_trade_api.REST(API_KEY, SECRET_KEY, APCA_API_DATA_URL)
+trade_api = alpaca.REST(API_KEY, SECRET_KEY, APCA_API_BASE_URL)
+data_api = alpaca.REST(API_KEY, SECRET_KEY, APCA_API_DATA_URL)
 
 
 test_buy = buy_order(trade_api)
