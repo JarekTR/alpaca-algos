@@ -26,6 +26,8 @@ tomli = "==1.0.4"
 urllib3 = "==1.26.6"
 websocket-client = "==1.1.0"
 websockets = "==9.1"
+pylint = "*"
+matplotlib = "*"
 
 [dev-packages]
 
